@@ -1,0 +1,14 @@
+api:
+  ibge_base_url: "https://servicodados.ibge.gov.br/api/v1"
+  timeout: 30
+  
+database:
+  sqlite_path: "data/output/municipios.db"
+  
+logging:
+  level: "INFO"
+  file: "logs/pipeline.log"
+  
+processing:
+  batch_size: 1000
+  validate_data: true
