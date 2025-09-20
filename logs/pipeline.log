@@ -1,0 +1,11 @@
+2025-09-20 16:46:19 | INFO | === INICIANDO PIPELINE ETL ===
+2025-09-20 16:46:19 | INFO | Fase de EXTRAÇÃO
+2025-09-20 16:46:19 | INFO | Iniciando extração de dados dos municípios
+2025-09-20 16:46:19 | INFO | Extraídos 5571 municípios
+2025-09-20 16:46:19 | INFO | Dados salvos em CSV: data\raw\municipios_raw.csv
+2025-09-20 16:46:19 | INFO | Fase de TRANSFORMAÇÃO
+2025-09-20 16:46:19 | INFO | Iniciando limpeza dos dados de municípios
+2025-09-20 16:46:19 | INFO | Dados limpos: 5571 registros válidos
+2025-09-20 16:46:19 | INFO | Relatório de validação: {'total_records': 5571, 'null_counts': {'municipio_id': 0, 'municipio_nome': 0, 'uf_sigla': 1, 'uf_nome': 1, 'regiao_nome': 1, 'microrregiao_nome': 1, 'mesorregiao_nome': 1}, 'duplicates': 0, 'unique_states': 27}
+2025-09-20 16:46:19 | ERROR | Erro ao salvar relatório: Object of type int64 is not JSON serializable
+2025-09-20 16:46:19 | ERROR | Erro no pipeline: Object of type int64 is not JSON serializable

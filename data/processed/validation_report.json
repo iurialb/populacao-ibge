@@ -1,0 +1,12 @@
+{
+  "total_records": 5571,
+  "null_counts": {
+    "municipio_id": 0,
+    "municipio_nome": 0,
+    "uf_sigla": 1,
+    "uf_nome": 1,
+    "regiao_nome": 1,
+    "microrregiao_nome": 1,
+    "mesorregiao_nome": 1
+  },
+  "duplicates": 
